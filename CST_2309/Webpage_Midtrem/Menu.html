@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Restaurant.css"/>
+	<title>Cloud9_Menu</title>
+</head>
+<body>
+<div class="header">
+<div class="container">
+	<ul class="nav">
+		<li><a href="Home.html">Home</a></li>
+		<li><a href="Menu.html">Menu</a></li>
+		<li><a href="Contact.html">Contact</a>
+	</ul>
+	<img style="float: right; height: 50px; width: 100px;" src="cloud 9.jpg"/>
+</div>
+</div>
+</div>
+
+<div class="jumbotron">
+<div>
+    <button class="menuHead"> Dinner </button>
+    <div class="menuItem">
+      <p> White Pizza  <b>$19</b></p>
+      <p> Warm Smoked Salmon  <b>$34</b></p>
+      <p> Dry Aged Angus Rib-Eye  <b>$46</b></p>
+      <p> Colorado Rack of Lamb  <b>$46</b></p>
+      <p> BBQ Beef Ribs  <b>$34</b></p>
+    </div>
+
+    <button class="menuHead"> Desserts </button>
+    <div class="menuItem">
+      <p> Chocolate Souffle  <b>$11</b></p>
+      <p> Apple Cider Doughnuts  <b>$11</b></p>
+    </div>
+
+    <button class="menuHead"> Drinks </button>
+    <div class="menuItem">
+      <p> Keystone Light  <b>$6</b></p>
+      <p> Water from the River  <b>$4</b></p>
+      <p> Collis Smoothie  <b>$8</b></p>
+    </div>
+</div>
+</div>
+
+<script>
+    var menu = document.getElementsByClassName("menuHead");
+    var i;
+    /* for each menu section, show the content on user click */
+    for (i = 0; i < menu.length; i++) {
+        menu[i].onclick = function(){
+            this.classList.toggle("active");
+            this.nextElementSibling.classList.toggle("show");
+        }
+    }
+    </script>
+
+<div class="footer">
+<div class="container">
+</div>
+</div>
+
+</body>
+</html>

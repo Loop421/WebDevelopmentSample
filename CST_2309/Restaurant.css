@@ -1,0 +1,238 @@
+body, html {height:100%;}
+
+/* text */
+h1.title {font-family: copperplate; font-size:50px;}
+span.center1{
+  font-family: helvetica;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px black;
+  font-weight: bold;
+}
+
+/* slideshow buttons */
+.button{
+  font-size: 20px;
+  background-color: LightGray;
+  padding: 8px 16px;
+  color: black;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+/* background used for all pages */
+div.dartbackground {
+  background-image: url(Images/dartmouth.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+/* navigation bar */
+ul.navbar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.navbar li{
+  float: left;
+  padding-right: 15px;
+}
+
+div.menu {
+  font-family: Arial;
+  font-size: 15px;
+  color: White;
+  padding-right: 10px;
+  padding-top: 6%;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* footer */
+.social{
+  width: 45px;
+  height: 45px;
+  padding-right: 15px;
+}
+
+/* menu page */
+button.menuhead{
+  background-color: #CEDDD4;
+  font-family: Brush script MT;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+button.menuhead.active, button.menuhead:hover {
+    background-color: #5F8D67;
+    color: white;
+}
+
+div.menuitem {
+    padding: 10px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+    background-color: #CEDDD4;
+    display: none;
+}
+
+div.menuitem.show {
+    display: block;
+}
+
+/* links in navigation bar */
+a:link{
+  text-decoration: none;
+  color: currentColor;
+}
+a:visited{
+  text-decoration: none;
+  color: currentColor;
+}
+a:hover{
+  color: ForestGreen;
+}
+a:active{
+  text-decoration: none;
+}
+
+/* take out page items */
+ul.cart {
+    margin: 0;
+    padding-left: 40px;
+    list-style-type: none;
+    padding-right: 63px;
+}
+
+ul.cart li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #C3E1CF;
+    font-size: 20px;
+    transition: 0.2s;
+    font-family: arial;
+}
+
+ul.cart li:hover {
+    background: #ABC6B5;
+}
+
+/* take out page remove buttons*/
+.remove {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px
+}
+
+.remove:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+/* take out page input bar */
+.inputbar {
+    background-color: #346748;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+    font-family: arial black;
+    opacity: 0.9;
+    border-right: solid 5px;
+}
+
+.inputbar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    border: none;
+    width: 75%;
+    padding: 1%;
+    float: left;
+    font-size: 16px;
+}
+
+/* take out page add button */
+.addItem {
+    padding: 1%;
+    width: 20%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: arial;
+}
+
+.addItem:hover {
+    background-color: #bbb;
+}
+
+/* take out page side menu */
+ul.takeoutmenu li{
+  padding: 6px;
+  font-family: arial;
+}
+
+/* contact page */
+ul.table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid gray;
+  background-color: #f1f1f1;
+}
+
+ul.table li{
+  float: left;
+}
+
+ul.table li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    font-family: arial;
+}
+
+ul.table li a:hover {
+    background-color: #ddd;
+}
+
+ul.table li a:focus, .active {
+    background-color: #ccc;
+}
+
+.content {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    font-family: arial;
+    font-size: 16px;
+}

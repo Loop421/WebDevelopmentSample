@@ -1,0 +1,239 @@
+<html>
+<head>
+<title>Form Validation</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+<script>
+function doSubmit()
+{
+if (validateText()==false)
+{
+alert("Required data in text fields.");
+return;
+}
+if (validateRadio()==false)
+{
+alert("Required card type.");
+return;
+}
+if (validateRadio2()==false)
+{
+alert("Required Membership Type")
+return;
+}
+if (validateSelect()==false)
+{
+alert("select Expiration Date")
+return;
+}
+alert("Your payment has been submitted.");
+}
+function doClear()
+{
+document.SubscribeForm.fname.value ="";
+document.SubscribeForm.lname.value ="";
+document.SubscribeForm.address.value ="";
+document.SubscribeForm.city.value ="";
+document.SubscribeForm.state.value ="";
+document.SubscribeForm.zip.value ="";
+document.SubscribeForm.cardnum.value="";
+document.SubscribeForm.cardname.value="";
+document.SubscribeForm.cardcode.value="";
+document.SubscribeForm.comment.value="";
+document.SubscribeForm.phone.value="";
+document.SubscribeForm.email.value="";
+document.SubscribeForm.address2.value="";
+document.SubscribeForm.city2.value="";
+document.SubscribeForm.state2.value="";
+document.SubscribeForm.zip2.value="";
+document.SubscribeForm.cardtype[0].checked=false;
+document.SubscribeForm.cardtype[1].checked=false;
+document.SubscribeForm.cardtype[2].checked=false;
+document.SubscribeForm.memtype[0].checked=false;
+document.SubscribeForm.memtype[1].checked=false;
+document.SubscribeForm.expMonth.value="--Month--";
+document.SubscribeForm.expYear.value="--Year--";
+}
+function validateText()
+{
+var fname = document.SubscribeForm.fname.value;
+if (fname.length==0) return false;
+var lname = document.SubscribeForm.lname.value;
+if (lname.length==0) return false;
+var address = document.SubscribeForm.address.value;
+if (address.length==0) return false;
+var city = document.SubscribeForm.city.value;
+if (city.length==0) return false;
+var state = document.SubscribeForm.state.value;
+if (state.length==0) return false;
+var zip = document.SubscribeForm.zip.value;
+if (zip.length==0) return false;
+var cardnum = document.SubscribeForm.cardnum.value;
+if (cardnum.length==0) return false;
+var cardname = document.SubscribeForm.cardname.value;
+if (cardname.length==0) return false;
+var cardcode = document.SubscribeForm.cardcode.value;
+if (cardcode.length==0) return false;
+var comment = document.SubscribeForm.comment.value;
+if (comment.length==0) return false;
+var phone = document.SubscribeForm.phone.value;
+if (phone.length==0) return false;
+var email = document.SubscribeForm.email.value;
+if (email.length==0) return false;
+
+// These variable are for the Billing Address.
+var address2 = document.SubscribeForm.address2.value;
+if (address2.length==0) return false;
+var city2 = document.SubscribeForm.city2.value;
+if (city2.length==0) return false;
+var state2 = document.SubscribeForm.state2.value;
+if (state2.length==0) return false;
+var zip2 = document.SubscribeForm.zip2.value;
+if (zip2.length==0) return false;
+
+return true;
+}
+function validateRadio()
+{
+if (document.SubscribeForm.cardtype[0].checked) return true;
+if (document.SubscribeForm.cardtype[1].checked) return true;
+if (document.SubscribeForm.cardtype[2].checked) return true;
+return false;
+}
+function validateRadio2()
+{
+if (document.SubscribeForm.memtype[0].checked) return true;
+if (document.SubscribeForm.memtype[1].checked) return true;
+return false;
+}
+function validateSelect ()
+{
+var select1 = document.SubscribeForm.expMonth.value;
+if (select1 == "--Month--") return false;
+var select2 = document.SubscribeForm.expYear.value;
+if (select2 == "--Year--") return false;
+return;
+}
+</script>
+</head>
+<header>
+<a href="RockGym-Home.html" id="logo"><img height="60px" src="https://img.clipartfest.com/aab30574562f389aae447154a06d4dcf_rock20clipart-rock-clipart-png_2400-2171.png"/></a>
+<nav>
+<ul>
+<li><a href="RockGym-Home.html">Home</a></li>
+<li><a href="Classes.html">Fitness Programs</a></li>
+<li><a href="Subscribe.html">Subscribe</a></li>
+</ul>
+</nav>
+</header>
+<br><br>
+<br><br>
+
+<form name="SubscribeForm">
+<h1>Subscribe Form</h1>
+<p>
+<h4>All fields are REQUIRED</h4>
+<font face="Courier New">
+First Name: <input name="fname" size="25" type="text"><br>
+Last Name: &nbsp;<input name="lname" size="25" type="text"><br>
+Street Address: <input name="address" size="25" type="text"><br>
+City: &nbsp;<input name="city" size="15" type="text"><br>
+State: <input name="state" size="2" type="TEXT"><br>
+ZIP/Postal Code: <input name="zip" size="5" type="text"><br>
+Phone: &nbsp;&nbsp;&nbsp;<input name="phone" size="25" type="text"><br>
+Email: &nbsp;&nbsp;&nbsp;<input name="email" size="25" type="text"><br>
+</font>
+</p>
+<p>
+<h4>Membership Options</h4>
+<font face="Courier New">
+<input name="memtype" type="radio">Regular $50/month<br>
+<input name="memtype" type="radio">VIP $100/month<br>
+</font>
+</p>
+<p>
+<h4>Payment Information</h4>
+<h5>Credit Card Type</h5>
+<font face="Courier New">
+<input name="cardtype" type="radio">MasterCard<br>
+<input name="cardtype" type="radio">VISA<br>
+<input name="cardtype" type="radio">Discover<br>
+Credit Card Number: <input name="cardnum" size="25" type="text"><br>
+Name on Card: <input name="cardname" size="25" type="text"><br>
+Expiration Date: <select name="expMonth">
+<option>--Month--</option>
+<option>Jan</option>
+<option>Feb</option>
+<option>Mar</option>
+<option>Apr</option>
+<option>May</option>
+<option>Jun</option>
+<option>Jul</option>
+<option>Aug</option>
+<option>Sep</option>
+<option>Oct</option>
+<option>Nov</option>
+<option>Dec</option>
+</select>
+<select name="expYear">
+<option>--Year--</option>
+<option>2013</option>
+<option>2014</option>
+<option>2015</option>
+<option>2016</option>
+<option>2017</option>
+<option>2018</option>
+<option>2019</option>
+<option>2020</option>
+<option>2021</option>
+<option>2022</option>
+<option>2023</option>
+<option>2024</option>
+<option>2025</option>
+</select><br>
+Card Security Code: <input name="cardcode" size="3" type="text"><br>
+</font>
+</p>
+<h4>Billing Address</h4>
+<font face="Courier New">
+Street Address: <input name="address2" size="25" type="text"><br>
+City: &nbsp;<input name="city2" size="15" type="text"><br>
+State: <input name="state2" size="2" type="TEXT"><br>
+ZIP/Postal Code: <input name="zip2" size="5" type="text"><br>
+</font>
+</p>
+
+<h4>Special Notes</h4>
+<p>
+<font face="Courier New">
+<textarea name="comment" cols="30" rows="8" placeholder="enter note here..."></textarea>
+</font>
+</p>
+
+<input type="button" value="Submit Payment" onClick="doSubmit()">
+<input type="button" value="Reset Entries" onClick="doClear()">
+</form>
+<footer>
+      <section>
+        <h3><b>Rock Gym</b></h3>
+        <p>
+          <b>215-555-5555</b><br /><br />
+          400 Boardway<br />
+          New York, NY 19100<br />
+          trainer@rockgym.com
+        </p>
+      </section>
+      <section>
+        <h3>Connect With Us!</h3>
+        <ul class="social">
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+        </ul>
+      </section>
+      <section>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv_sf1Edec2qxDvmihyfAQaI1nDel7K6k9qRD7q37dP7S5iky4" />
+      </section>
+    </footer>
+</body>
+</html>

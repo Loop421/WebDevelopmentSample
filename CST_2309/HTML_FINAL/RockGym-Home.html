@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>RockGym-Home</title>
+<link rel="stylesheet" href="style.css" type="text/css"/>
+
+<script>
+var imgArray = new Array(4);
+var index = 0;
+function cycle()
+{
+document.banner.src = imgArray[index].src;
+index++;
+if (index > 3)
+{
+index = 0;
+}
+setTimeout("cycle()", 2000);
+return;
+}
+function startup()
+{
+imgArray[0]= new Image;
+imgArray[0].src = "http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg";
+imgArray[1]= new Image;
+imgArray[1].src = "http://www.goldsgym.com/losangelesdtca/wp-content/uploads/sites/505/2016/08/golds-gym-downtown-la-ca-weight-training.jpg";
+imgArray[2]= new Image;
+imgArray[2].src = "http://www.goldsgym.com/losangelesdtca/wp-content/uploads/sites/505/2016/08/golds-gym-downtown-la-ca-exercise-training.jpg";
+imgArray[3]= new Image;
+imgArray[3].src = "https://az616578.vo.msecnd.net/files/responsive/cover/main/desktop/2016/07/30/6360545703714904021721664334_gym.jpg";
+cycle();
+return;
+}
+</script>
+</head>
+
+<body onLoad="startup()">
+<header>
+<a href="RockGym-Home.html" id="logo"><img height="60px" src="https://img.clipartfest.com/aab30574562f389aae447154a06d4dcf_rock20clipart-rock-clipart-png_2400-2171.png"/></a>
+<nav>
+<ul>
+<li><a href="RockGym-Home.html">Home</a></li>
+<li><a href="Classes.html">Fitness Programs</a></li>
+<li><a href="Subscribe.html">Subscribe</a></li>
+</ul>
+</nav>
+</header>
+<br><br>
+<br><br>
+
+<section class="main">
+      
+      <h1>Best Trainers Around!</h1>
+      <p>
+        Here at Rock Gym we have the best training staff in the tri-state area with all 
+		the right certifications.Come in today and have a sit down with one of our trainers 
+		so we can help you meet your goals.
+      </p>
+    </section>
+    <section>
+      
+      <h1>Local & Convenient</h1>
+      <p>
+        Our location sits near the center of major roadway exits making it very convenient
+		for gym goers and personal training clients to get their workouts in before or after work.
+      </p>
+    </section>
+    <section>
+      
+      <h1>Best Gym Around!</h1>
+      <p>
+        To show how confident we are in our facilitie and the trainers satisfying the needs of our clients,
+		we offer a free two week pass so anyone interested can get a feel for our gym and decide 
+		whether or not they’d like to join.
+      </p>
+    </section>
+    
+    <div class="clear"></div>
+    <article>
+      <img name="banner" src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" />
+    </article>
+    
+	<footer>
+      <section>
+        <h3><b>Rock Gym</b></h3>
+        <p>
+          <b>215-555-5555</b><br /><br />
+          400 Boardway<br />
+          New York, NY 19100<br />
+          trainer@rockgym.com
+        </p>
+      </section>
+      <section>
+        <h3>Connect With Us!</h3>
+        <ul class="social">
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>
+          <li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png" /></a></li>
+        </ul>
+      </section>
+      <section>
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSv_sf1Edec2qxDvmihyfAQaI1nDel7K6k9qRD7q37dP7S5iky4" />
+      </section>
+    </footer>
+</body>
+</html>
