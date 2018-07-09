@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0"
+	prefWidth="682.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="edu.citytech.cst.gui.CountController">
+	<children>
+		<AnchorPane fx:id="a_mainCount" layoutX="33.0" layoutY="105.0"
+			prefHeight="341.0" prefWidth="599.0">
+			<children>
+				<Label id="lbl_1" fx:id="lblCell1" layoutX="32.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label id="lbl_2" fx:id="lblCell2" layoutX="81.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell3" layoutX="131.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell4" layoutX="180.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell5" layoutX="229.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell6" layoutX="278.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell7" layoutX="328.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell8" layoutX="377.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell9" layoutX="426.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell10" layoutX="475.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell11" layoutX="525.0" layoutY="26.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell12" layoutX="33.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell13" layoutX="82.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell14" layoutX="132.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell15" layoutX="181.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell16" layoutX="230.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell17" layoutX="279.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell18" layoutX="329.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell19" layoutX="378.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell20" layoutX="427.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell21" layoutX="476.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell22" layoutX="526.0" layoutY="78.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell23" layoutX="33.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell24" layoutX="82.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell25" layoutX="132.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell26" layoutX="181.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell27" layoutX="230.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell28" layoutX="279.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell29" layoutX="329.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell30" layoutX="378.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell31" layoutX="427.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell32" layoutX="476.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell33" layoutX="526.0" layoutY="130.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell34" layoutX="33.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell35" layoutX="82.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell36" layoutX="132.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell37" layoutX="181.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell38" layoutX="230.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell39" layoutX="279.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell40" layoutX="329.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell41" layoutX="378.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell42" layoutX="427.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell43" layoutX="476.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell44" layoutX="526.0" layoutY="182.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell45" layoutX="33.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell46" layoutX="82.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell47" layoutX="132.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell48" layoutX="181.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell49" layoutX="230.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell50" layoutX="279.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell51" layoutX="329.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell52" layoutX="378.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell53" layoutX="427.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell54" layoutX="476.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell55" layoutX="526.0" layoutY="232.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell56" layoutX="33.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell57" layoutX="82.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell58" layoutX="132.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell59" layoutX="181.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell60" layoutX="230.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell61" layoutX="279.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell62" layoutX="329.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell63" layoutX="378.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell64" layoutX="427.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell65" layoutX="476.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+				<Label fx:id="lblCell66" layoutX="526.0" layoutY="279.0"
+					prefHeight="39.0" prefWidth="42.0"
+					style="-fx-alignment: center; -fx-border-color: black; -fx-border-image-width: 1;"
+					text="?">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Label>
+			</children>
+		</AnchorPane>
+		<Button fx:id="btn_abc" layoutX="67.0" layoutY="465.0"
+			mnemonicParsing="false" onAction="#OnClickABC" text="ABC" />
+		<Button fx:id="btn_cba" layoutX="115.0" layoutY="465.0"
+			mnemonicParsing="false" onAction="#OnClickCBA" text="CBA" />
+		<Button fx:id="btn_123" layoutX="164.0" layoutY="465.0"
+			mnemonicParsing="false" onAction="#OnClick123" text="123" />
+		<Button fx:id="btn_321" layoutX="210.0" layoutY="465.0"
+			mnemonicParsing="false" onAction="#OnClick321" text="321" />
+		<Label fx:id="lbl_mode" layoutX="19.0" layoutY="51.0"
+			prefHeight="35.0" prefWidth="634.0" style="-fx-alignment: center;"
+			text="Count Mode is Letters">
+			<font>
+				<Font size="24.0" />
+			</font>
+		</Label>
+		<Button fx:id="btn_clear" layoutX="270.0" layoutY="464.0"
+			mnemonicParsing="false" onMouseClicked="#btn_CountTo" text="clear" />
+	</children>
+</AnchorPane>
