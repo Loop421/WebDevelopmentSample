@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane hgap="10.0" prefHeight="275" prefWidth="400"
+	styleClass="root" stylesheets="@application.css" vgap="10.0"
+	xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.GradeServiceController">
+	<rowConstraints>
+		<RowConstraints minHeight="10.0" prefHeight="30.0" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0" />
+	</rowConstraints>
+	<children>
+		<Text id="welcome-text" strokeType="OUTSIDE" strokeWidth="0.0"
+			text="Grade Service" GridPane.columnSpan="2" />
+		<Label text="Grade Enter" GridPane.rowIndex="1" />
+		<Label text="Calculated Grade:" GridPane.rowIndex="2" />
+		<TextField fx:id="txtEnter" GridPane.columnIndex="1"
+			GridPane.rowIndex="1" />
+		<TextField fx:id="txtCalculate" GridPane.columnIndex="1"
+			GridPane.rowIndex="2" />
+		<HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1"
+			GridPane.rowIndex="3">
+			<children>
+				<Button fx:id="btnCalcuate" mnemonicParsing="false" onAction="#calcuateGarde"
+					text="Process" />
+			</children>
+		</HBox>
+		<Text id="actionTarget" fx:id="txtMessage" strokeType="OUTSIDE"
+			strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+	</children>
+	<columnConstraints>
+		<ColumnConstraints />
+		<ColumnConstraints minWidth="10.0" prefWidth="100.0" />
+	</columnConstraints>
+	<padding>
+		<Insets bottom="10.0" left="25.0" right="25.0" top="25.0" />
+	</padding>
+</GridPane>

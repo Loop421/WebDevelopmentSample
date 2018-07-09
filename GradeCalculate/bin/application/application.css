@@ -1,0 +1,32 @@
+#sidebutton {
+	-fx-background-color: rgba(244, 176, 132);
+	-fx-border-width: .5;
+	-fx-border-color: black;
+}
+
+#inputButton {
+	-fx-background-color: rgba(189, 215, 238);
+	-fx-border-width: .5;
+	-fx-border-color: black;
+}
+
+#clearAndCalculateButton {
+	-fx-background-color: rgba(201, 201, 201);
+	-fx-border-width: .5;
+	-fx-border-color: black;
+}
+
+#button:hover {
+    -fx-background-color: linear-gradient( #d5d8dc , #61a2b1);
+}
+
+.lblField {
+	-fx-border-width: .8;
+	-fx-border-color: black;
+}
+
+#actiontarget {
+  -fx-text-fill: red;
+  -fx-font-weight: bold;
+  -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );  
+}

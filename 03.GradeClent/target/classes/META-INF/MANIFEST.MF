@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: 03.GradeClent
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: drcho_000
+Implementation-Vendor-Id: 03.GradeClent
+Build-Jdk: 1.8.0_162
+Implementation-URL: http://projects.spring.io/spring-boot/03.GradeClen
+ t/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

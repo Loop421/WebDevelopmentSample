@@ -1,0 +1,8 @@
+{
+	"t1":{"code":"SI", "start":0, "end":9326, "percentage":0.10},
+	"t2":{"code":"SI", "start":37951, "end":91909, "percentage":0.25},
+	"t3":{"code":"SI", "start":91909, "end":191651, "percentage":0.28},
+	"t4":{"code":"SI", "start":191651, "end":416701, "percentage":0.33},
+	"t5":{"code":"SI", "start":416701, "end":418401, "percentage":0.35},
+	"t6":{"code":"SI", "start":418401, "end":10000000, "percentage":0.396}
+}

@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: 02.WebResource
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: drcho_000
+Implementation-Vendor-Id: 02.WebResource
+Build-Jdk: 1.8.0_162
+Implementation-URL: http://projects.spring.io/spring-boot/02.WebResour
+ ce/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
